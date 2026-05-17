@@ -10,7 +10,7 @@ Repositori ini merupakan kumpulan tugas kuliah, latihan praktikum, dan proyek uj
 * **Program Studi** : Teknik Informatika
 ---
 
-## 🗂️ Daftar Proyek & Tugas
+## 🗂️ Daftar Tugas
 
 Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam repositori ini:
 
