@@ -1,4 +1,4 @@
-# 📚 Repositori Tugas Kuliah - Pemrograman Pascal
+# 📚 Repositori Tugas Kuliah
 
 Repositori ini merupakan kumpulan tugas kuliah, latihan praktikum, dan proyek ujian untuk mata kuliah berbasis bahasa pemrograman, **Python**, **Pascal**, dll (seperti Algoritma & Pemrograman dan Struktur Data). Semua kode di dalam repositori ini dibuat untuk memenuhi tugas akademik di program studi Informatika/Sistem Informasi.
 
