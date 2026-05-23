@@ -1,117 +1,136 @@
-program pengurutanArray;
-uses crt;
-
+program pengurutanAngka;
+uses crt, sysutils, windows;
 const
-  n = 8;
-
-type
-  IntArray = array[1..n] of integer;
-
+    JUMLAH_DATA = 8;
+    BUBBLE = 0;
+    SELECTION = 1;
+    INSERTION = 2;
 var
-  A: IntArray;
-  pilihan: integer;
-
-procedure ResetData(var arr: IntArray);
-const
-  Original: array[1..n] of integer = (8, 4, 1, 6, 20, 9, 14, 17);
+    data_acak : array[1..JUMLAH_DATA] of integer = (8, 4, 1, 6, 20, 9, 14, 17);
+    data_urut : array[1..JUMLAH_DATA] of integer;
+procedure ResetData;
 begin
-  arr := Asli;
+    data_acak[1] := 8;
+    data_acak[2] := 4;
+    data_acak[3] := 1;
+    data_acak[4] := 6;
+    data_acak[5] := 20;
+    data_acak[6] := 9;
+    data_acak[7] := 14;
+    data_acak[8] := 17;
 end;
-
-procedure TampilkanData(arr: IntArray);
+procedure MuatData;
 var i: integer;
 begin
-  for i := 1 to n do
-    write(arr[i], ' ');
-  writeln;
+    for i := 1 to JUMLAH_DATA do
+        data_urut[i] := data_acak[i];
 end;
-
-procedure BubbleSort(var arr: IntArray);
+procedure TampilkanData();
+var i: integer;
+begin
+    for i := 1 to JUMLAH_DATA do
+        write(data_urut[i], ' ');
+    writeln;
+end;
+procedure BubbleSort();
 var i, j, temp: integer;
 begin
-  for i := 1 to n-1 do
-    for j := n downto i+1 do
-      if arr[j] < arr[j-1] then
-      begin
-        temp := arr[j];
-        arr[j] := arr[j-1];
-        arr[j-1] := temp;
-      end;
+    for i := 1 to JUMLAH_DATA - 1 do
+    begin
+        for j := 1 to JUMLAH_DATA - i do
+        begin
+            if data_urut[j] > data_urut[j + 1] then
+            begin
+                temp := data_urut[j];
+                data_urut[j] := data_urut[j + 1];
+                data_urut[j + 1] := temp;
+            end;
+        end;;
+    end;
 end;
-
-procedure SelectionSort(var arr: IntArray);
+procedure SelectionSort();
 var i, j, minIdx, temp: integer;
 begin
-  for i := 1 to n-1 do
-  begin
-    minIdx := i;
-    for j := i+1 to n do
-      if arr[j] < arr[minIdx] then minIdx := j;
-    temp := arr[minIdx];
-    arr[minIdx] := arr[i];
-    arr[i] := temp;
-  end;
+    for i := 1 to JUMLAH_DATA - 1 do
+    begin
+        minIdx := i;
+        for j := i + 1 to JUMLAH_DATA do
+        begin
+            if data_urut[j] < data_urut[minIdx] then
+                minIdx := j;
+        end;
+        if minIdx <> i then
+        begin
+            temp := data_urut[i];
+            data_urut[i] := data_urut[minIdx];
+            data_urut[minIdx] := temp;
+        end;
+    end;
 end;
-
-procedure InsertionSort(var arr: IntArray);
+procedure InsertionSort();
 var i, j, key: integer;
 begin
-  for i := 2 to n do
-  begin
-    key := arr[i];
-    j := i - 1;
-    while (j >= 1) and (arr[j] > key) do
+    for i := 1 to JUMLAH_DATA do
     begin
-      arr[j+1] := arr[j];
-      j := j - 1;
+        key := data_urut[i];
+        j := i - 1;
+        while (j > 0) and (data_urut[j] > key) do
+        begin
+            data_urut[j + 1] := data_urut[j];
+            dec(j);
+        end;
+        data_urut[j + 1] := key;
     end;
-    arr[j+1] := key;
-  end;
+end;
+procedure urutkanData(metode: integer);
+var
+    waktu_awal, waktu_akhir, selisih_waktu: Int64;
+    microdetik: double;
+begin
+    QueryPerformanceFrequency(selisih_waktu);
+
+    QueryPerformanceCounter(waktu_awal);
+    case metode of
+        BUBBLE: BubbleSort();
+        SELECTION: SelectionSort();
+        INSERTION: InsertionSort();
+    else
+        InsertionSort();
+    end;
+
+    QueryPerformanceCounter(waktu_akhir);
+    microdetik := (waktu_akhir - waktu_awal) / selisih_waktu * 1000000;
+    writeln('data terurut:');
+    TampilkanData();
+    writeln('waktu: ', microdetik:0:2, ' mikrodetik');
+    writeln('---------------------------------------');
+    writeln;
 end;
 
-procedure InsertionSortRecursive(var arr: IntArray; k: integer);
-var key, j: integer;
 begin
-  if k <= 1 then exit;
-  InsertionSortRecursive(arr, k - 1);
-  key := arr[k];
-  j := k - 1;
-  while (j >= 1) and (arr[j] > key) do
-  begin
-    arr[j+1] := arr[j];
-    j := j - 1;
-  end;
-  arr[j+1] := key;
-end;
-
-begin
-  repeat
     clrscr;
-    ResetData(A);
-    writeln('=== MENU PENGURUTAN DATA ===');
-    writeln('Data Awal: 8, 4, 1, 6, 20, 9, 14, 17');
-    writeln('1. Bubble Sort (Iteratif)');
-    writeln('2. Selection Sort (Iteratif)');
-    writeln('3. Insertion Sort (Iteratif)');
-    writeln('4. Insertion Sort (Rekursif)');
-    writeln('0. Keluar');
-    write('Pilih menu (0-4): '); readln(pilihan);
+    ResetData();
 
-    if (pilihan >= 1) and (pilihan <= 4) then
-    begin
-      writeln('---');
-      case pilihan of
-        1: begin writeln('Memproses Bubble Sort...'); BubbleSort(A); end;
-        2: begin writeln('Memproses Selection Sort...'); SelectionSort(A); end;
-        3: begin writeln('Memproses Insertion Sort...'); InsertionSort(A); end;
-        4: begin writeln('Memproses Insertion Sort Rekursif...'); InsertionSortRecursive(A, n); end;
-      end;
-      write('Hasil Akhir: ');
-      TampilkanData(A);
-      writeln('---');
-      write('Tekan Enter untuk kembali ke menu...');
-      readln;
-    end;
+    MuatData();
+    writeln('Perbandingan Metode Pengurutan');
+    writeln('Data Acak:');
+    TampilkanData();
+    writeln('---------------------------------------');
+    writeln;
     
-  until pilihan = 0;
+
+    writeln('--------------Bubble Sort--------------');
+    muatData();
+    urutkanData(BUBBLE);
+
+    writeln('------------Selection Sort-------------');
+    muatData();
+    urutkanData(SELECTION);
+
+    writeln('------------Insertion Sort-------------');
+    muatData();
+    urutkanData(INSERTION);
+
+    writeln('Tekan Enter untuk keluar...');
+    readln;
 end.
