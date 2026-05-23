@@ -15,7 +15,7 @@ procedure ResetData(var arr: IntArray);
 const
   Original: array[1..n] of integer = (8, 4, 1, 6, 20, 9, 14, 17);
 begin
-  arr := Original;
+  arr := Asli;
 end;
 
 procedure TampilkanData(arr: IntArray);
