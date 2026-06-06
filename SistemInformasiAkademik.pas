@@ -218,7 +218,7 @@ begin
     write('Tekan Enter untuk kembali...'); readkey;
 end;
 
-var pilihan: char; npm: string; idx: integer;
+var pilihan: char; idx: integer;
 begin
     MuatMataKuliah;
     repeat
