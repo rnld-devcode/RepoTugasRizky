@@ -21,6 +21,9 @@ Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam reposi
   * Kalkulasi tunjangan otomatis (tunjangan keluarga, anak, atau kehadiran).
   * Pemotongan otomatis (pajak PPh, BPJS, atau asuransi).
   * Cetak slip gaji bulanan total (*Take Home Pay*) untuk karyawan.
+![PratinjauProgram_SistemGajiBulanan](img/PratinjauProgram/SistemGajiBulanan.png)
+
+
 
 ### 2. 📞 Program Buku Telepon (`./ProgramBukuTelepon`)
 * **Mata Kuliah:** Struktur Data
@@ -77,5 +80,5 @@ Pilih salah satu file tugas yang ingin dijalankan, kemudian ikuti langkah-langka
    ```bash
    ./namafile
    ```
-   
+
 ![Visual Intruksi Menjalankan Program](img/PratinjauProgram/InstruksiMenjalankanProgram.png)
