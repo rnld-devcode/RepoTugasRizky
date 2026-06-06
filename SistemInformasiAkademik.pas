@@ -14,7 +14,7 @@ type
     end;
 
     Mahasiswa = record
-        nim: string[15];
+        npm: string[15];
         nama: string[50];
         MK_Diambil: array[1..MAX_MK_PER_MHS] of KRS;
         jumlah_MK_Diambil: integer;
@@ -25,7 +25,6 @@ type
         nama: string[50];
         sks: integer;
     end;
-
 
 var
     daftarMK: array[1..MAX_MASTER_MK] of MataKuliah;
@@ -78,12 +77,12 @@ begin
     
     inc(jumlahMhs); 
     
-    write('| NPM           : '); readln(listMhs[jumlahMhs].nim); 
+    write('| NPM           : '); readln(listMhs[jumlahMhs].npm); 
     write('| Nama Lengkap  : '); readln(listMhs[jumlahMhs].nama); 
     
     writeln('+=============================================+');
     
-    if (listMhs[jumlahMhs].nim = '') or (listMhs[jumlahMhs].nama = '') then 
+    if (listMhs[jumlahMhs].npm = '') or (listMhs[jumlahMhs].nama = '') then 
     begin
         writeln('| ERROR: Data tidak boleh kosong!             |');
         writeln('+=============================================+');
@@ -113,7 +112,7 @@ begin
     begin
         for i := 1 to jumlahMhs do
         begin
-            writeln('| ', listMhs[i].nim:-10, ' | ', listMhs[i].nama:-30, ' |');
+            writeln('| ', listMhs[i].npm:-10, ' | ', listMhs[i].nama:-30, ' |');
         end;
     end;
     
@@ -125,17 +124,17 @@ function CariIndexMhs(targetNIM: string): integer;
 begin
     CariIndexMhs := -1; 
     for i := 1 to jumlahMhs do
-        if listMhs[i].nim = targetNIM then begin CariIndexMhs := i; break; end;
+        if listMhs[i].npm = targetNIM then begin CariIndexMhs := i; break; end;
 end;
 
 function CariMahasiswa(var idx: integer): boolean;
-var nim: string;
+var npm: string;
 begin
-    write('Masukkan NIM: '); readln(nim);
-    idx := CariIndexMhs(nim);
+    write('Masukkan NPM: '); readln(npm);
+    idx := CariIndexMhs(npm);
     if idx = -1 then
     begin
-        writeln('NIM tidak ditemukan!');
+        writeln('NPM tidak ditemukan!');
         readkey;
         CariMahasiswa := false;
     end
@@ -186,7 +185,7 @@ begin
     writeln('|                   KARTU HASIL STUDI (KHS)                         |');
     writeln('+===================================================================+');
     writeln('| Nama : ', listMhs[idx].nama,                                    ' |');
-    writeln('| NPM  : ', listMhs[idx].nim,                                     ' |');
+    writeln('| NPM  : ', listMhs[idx].npm,                                     ' |');
     writeln('+---------+-----------------------------------+-----+-------+-------+');
     writeln('| KODE    | NAMA MATA KULIAH                  | SKS | NILAI | BOBOT |');
     writeln('+---------+-----------------------------------+-----+-------+-------+');
@@ -219,7 +218,7 @@ begin
     write('Tekan Enter untuk kembali...'); readkey;
 end;
 
-var pilihan: char; nim: string; idx: integer;
+var pilihan: char; npm: string; idx: integer;
 begin
     MuatMataKuliah;
     repeat
@@ -231,7 +230,7 @@ begin
         writeln('|  2. Daftar Mahasiswa                        |');
         writeln('|  3. Input Nilai Mata Kuliah                 |');
         writeln('|  4. Tampilkan KHS                           |');
-        writeln('|  5. Keluar                                  |');
+        writeln('|  5. Keluar dari Program                     |');
         writeln('+=============================================+');
         write('   Pilih menu (1-5): '); pilihan := readkey;
         writeln;
