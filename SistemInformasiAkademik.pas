@@ -7,6 +7,7 @@ const
     MAX_MHS = 100;
 
 type
+    //M. Rizky Rinaldy - array of sruct (C++), array of record (pascal)
     KRS = record
         kodeMK: string[10];
         nilai: char;
