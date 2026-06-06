@@ -159,5 +159,7 @@ Pilih salah satu file tugas yang ingin dijalankan, kemudian ikuti langkah-langka
    ```bash
    ./namafile
    ```
-
-![Visual Intruksi Menjalankan Program](img/PratinjauProgram/InstruksiMenjalankanProgram.png)
+<div align="center">
+  <img src="img/PratinjauProgram/InstruksiMenjalankanProgram.png" width="600" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <p><b>Gambar:</b> Visual Intruksi Menjalankan Program.</p>
+</div>
