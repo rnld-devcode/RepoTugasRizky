@@ -17,7 +17,7 @@ Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam reposi
 <table>
   <tr>
     <td width="60%">
-      <h3>1. 💵 Program Sistem Gaji Bulanan (<code>./ProgramSistemGaji</code>)</h3>
+      <h3>💵 Program Sistem Gaji Bulanan (<code>./ProgramSistemGaji</code>)</h3>
       <ul>
         <li><b>Mata Kuliah:</b> Struktur Data</li>
         <li><b>Konsep:</b> Operasi Aritmatika, Percabangan (<code>if-then-else</code> / <code>case-of</code>), dan tipe data Record untuk data karyawan.</li>
@@ -36,7 +36,7 @@ Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam reposi
   </tr>
   <tr>
     <td width="60%">
-      <h3>2. 📞 Program Buku Telepon (<code>./ProgramBukuTelepon</code>)</h3>
+      <h3>📞 Program Buku Telepon (<code>./ProgramBukuTelepon</code>)</h3>
       <ul>
         <li><b>Mata Kuliah:</b> Struktur Data</li>
         <li><b>Konsep:</b> Parallel Arrays, Konstanta, Array Terstruktur.</li>
@@ -56,7 +56,7 @@ Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam reposi
   </tr>
   <tr>
     <td width="60%">
-      <h3>3. 🏙️ Program Data Kota (<code>./ProgramDataKota</code>)</h3>
+      <h3>🏙️ Program Data Kota (<code>./ProgramDataKota</code>)</h3>
       <ul>
         <li><b>Mata Kuliah:</b> Struktur Data</li>
         <li><b>Konsep:</b> Array 1-Dimensi / Record.</li>
@@ -75,7 +75,7 @@ Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam reposi
   </tr>
   <tr>
     <td width="60%">
-      <h3>4. 🔢 Program Pengurutan Array (<code>./ProgramPengurutanArray</code>)</h3>
+      <h3>🔢 Program Pengurutan Array (<code>./ProgramPengurutanArray</code>)</h3>
       <ul>
         <li><b>Mata Kuliah:</b> Struktur Data</li>
         <li><b>Konsep:</b> Sorting (<i>Bubble Sort / Selection Sort / Insertion Sort</i>).</li>
@@ -94,7 +94,7 @@ Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam reposi
   </tr>
   <tr>
     <td width="60%">
-      <h3>5. 🎓 Program Sistem Informasi Akademik (<code>./SistemInformasiAkademik</code>)</h3>
+      <h3>🎓 Program Sistem Informasi Akademik (<code>./SistemInformasiAkademik</code>)</h3>
       <ul>
         <li><b>Mata Kuliah:</b> Struktur Data</li>
         <li><b>Konsep:</b>  Array of Struct, Prosedur Modular, Sequential Search, dan Format Tabel (<i>Fixed-Width Padding)</i>.</li>
@@ -113,7 +113,7 @@ Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam reposi
   </tr>
   <tr>
     <td width="60%">
-      <h3>6. ? ON GOING (<code>./namaFile</code>)</h3>
+      <h3>? ON GOING (<code>./namaFile</code>)</h3>
       <ul>
         <li><b>Mata Kuliah:</b> Struktur Data</li>
         <li><b>Konsep:</b> Dalam Perencanaan.</li>
