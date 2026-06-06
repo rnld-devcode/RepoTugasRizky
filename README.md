@@ -17,10 +17,10 @@ Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam reposi
 <table>
   <tr>
     <td width="60%">
-      <h3>1. 💵 Program Sistem Gaji Bulanan (`./ProgramSistemGaji`)</h3>
+      <h3>1. 💵 Program Sistem Gaji Bulanan (<code>./ProgramSistemGaji</code>)</h3>
       <ul>
         <li><b>Mata Kuliah:</b> Struktur Data</li>
-        <li><b>Konsep:</b> Operasi Aritmatika, Percabangan (`if-then-else` / `case-of`), dan tipe data `Record` untuk data karyawan.</li>
+        <li><b>Konsep:</b> Operasi Aritmatika, Percabangan (<code>if-then-else</code> / <code>case-of</code>), dan tipe data Record untuk data karyawan.</li>
         <li><b>Fitur:</b> * Perhitungan gaji pokok berdasarkan golongan atau jabatan pegawai.
   * Kalkulasi tunjangan otomatis (tunjangan keluarga, anak, atau kehadiran).
   * Pemotongan otomatis (pajak PPh, BPJS, atau asuransi).
