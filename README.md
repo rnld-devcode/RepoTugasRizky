@@ -14,16 +14,24 @@ Repositori ini merupakan kumpulan tugas kuliah, latihan praktikum, dan proyek uj
 
 Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam repositori ini:
 
-### 1. 💵 Program Sistem Gaji Bulanan (`./ProgramSistemGaji`)
-* **Mata Kuliah:** Struktur Data
-* **Konsep / Struktur:** Operasi Aritmatika, Percabangan (`if-then-else` / `case-of`), dan tipe data `Record` untuk data karyawan.
-* **Fitur Utama:** * Perhitungan gaji pokok berdasarkan golongan atau jabatan pegawai.
+<table>
+  <tr>
+    <td width="60%">
+      <h3>1. 💵 Program Sistem Gaji Bulanan (`./ProgramSistemGaji`)</h3>
+      <ul>
+        <li><b>Mata Kuliah:</b> Struktur Data</li>
+        <li><b>Konsep:</b> Operasi Aritmatika, Percabangan (`if-then-else` / `case-of`), dan tipe data `Record` untuk data karyawan.</li>
+        <li><b>Fitur:</b> * Perhitungan gaji pokok berdasarkan golongan atau jabatan pegawai.
   * Kalkulasi tunjangan otomatis (tunjangan keluarga, anak, atau kehadiran).
   * Pemotongan otomatis (pajak PPh, BPJS, atau asuransi).
-  * Cetak slip gaji bulanan total (*Take Home Pay*) untuk karyawan.
-![PratinjauProgram_SistemGajiBulanan](img/PratinjauProgram/SistemGajiBulanan.png)
-
-
+  * Cetak slip gaji bulanan total (Take Home Pay) untuk karyawan.</li>
+      </ul>
+    </td>
+    <td width="40%">
+      <img src="img/PratinjauProgram/SistemGajiBulanan.png" alt="PratinjauProgram_SistemGajiBulanan">
+    </td>
+  </tr>
+</table>
 
 ### 2. 📞 Program Buku Telepon (`./ProgramBukuTelepon`)
 * **Mata Kuliah:** Struktur Data
