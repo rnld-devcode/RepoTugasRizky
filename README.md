@@ -77,3 +77,5 @@ Pilih salah satu file tugas yang ingin dijalankan, kemudian ikuti langkah-langka
    ```bash
    ./namafile
    ```
+   
+![Visual Intruksi Menjalankan Program](img/PratinjauProgram/InstruksiMenjalankanProgram.png)
