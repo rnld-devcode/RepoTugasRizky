@@ -113,7 +113,7 @@ Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam reposi
   </tr>
   <tr>
     <td width="60%">
-      <h3>5. ? ON GOING (<code>./namaFile</code>)</h3>
+      <h3>6. ? ON GOING (<code>./namaFile</code>)</h3>
       <ul>
         <li><b>Mata Kuliah:</b> Struktur Data</li>
         <li><b>Konsep:</b> Dalam Perencanaan.</li>
