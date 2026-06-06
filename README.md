@@ -62,9 +62,10 @@ Untuk mengompilasi dan menjalankan program-program di atas, Anda memerlukan comp
 ## 🚀 Cara Menjalankan Program
 
 Pilih salah satu file tugas yang ingin dijalankan, kemudian ikuti langkah-langkah berikut melalui Terminal atau Command Prompt:
-0. **Akses File Hasil Download Lewat Terminal:**
+
+#. **Akses File Hasil Download Lewat Terminal:**
    ```bash
-    `cd C:\Users\rizky\Downloads\`
+    cd C:\Users\rizky\Downloads\
    ```
    Note : rizky --> ganti ke nama user sesuai profile di komputer Anda
    
