@@ -1,4 +1,7 @@
 # 📚 Repositori Tugas Kuliah
+![Pascal](https://img.shields.io/badge/Language-Pascal-blue)
+![Status](https://img.shields.io/badge/Status-Ongoing-yellow)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 Repositori ini merupakan kumpulan tugas kuliah, latihan praktikum, dan proyek ujian untuk mata kuliah berbasis bahasa pemrograman, **Python**, **Pascal**, dll (seperti Algoritma & Pemrograman dan Struktur Data). Semua kode di dalam repositori ini dibuat untuk memenuhi tugas akademik di program studi Informatika/Sistem Informasi.
 
@@ -113,10 +116,10 @@ Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam reposi
   </tr>
   <tr>
     <td width="60%">
-      <h3>? ON GOING (<code>./namaFile</code>)</h3>
+      <h3>🚧 Pengembangan Mendatang (<code>./namaFile</code>)</h3>
       <ul>
         <li><b>Mata Kuliah:</b> Struktur Data</li>
-        <li><b>Konsep:</b> Dalam Perencanaan.</li>
+        <li><b>Konsep:</b> Sedang mengerjakan proyek RNLDstock&service yang berfokus pada Pengelolaan Stok Sparepart dan Manajemen Jasa Service HP berbasis Visual dan Database. Nantikan update selanjutnya!</li>
         <li><b>Fitur:</b> 
             <ul>
                 <li>Fitur 1.</li>
@@ -144,18 +147,19 @@ Untuk mengompilasi dan menjalankan program-program di atas, Anda memerlukan comp
 ## 🚀 Cara Menjalankan Program
 
 Pilih salah satu file tugas yang ingin dijalankan, kemudian ikuti langkah-langkah berikut melalui Terminal atau Command Prompt:
-
-#. **Akses File Hasil Download Lewat Terminal:**
+1. **Buka Terminal atau Command Prompt.**
+2. **Masuk ke direktori proyek menggunakan perintah `cd`:**
+   jika di folder Download:
    ```bash
     cd C:\Users\rizky\Downloads\
    ```
    Note : rizky --> ganti ke nama user sesuai profile di komputer Anda
    
-1. **Kompilasi kode sumber menggunakan FPC:**
+3. **Kompilasi kode sumber menggunakan FPC:**
    ```bash
    Fpc namafile.pas
    ```
-2. **Jalankan file executable hasil kompilasi:**
+4. **Jalankan file executable hasil kompilasi:**
    ```bash
    ./namafile
    ```
