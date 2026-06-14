@@ -1,4 +1,7 @@
 # 📚 Repositori Tugas Kuliah
+![Pascal](https://img.shields.io/badge/Language-Pascal-blue)
+![Status](https://img.shields.io/badge/Status-Ongoing-yellow)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 Repositori ini merupakan kumpulan tugas kuliah, latihan praktikum, dan proyek ujian untuk mata kuliah berbasis bahasa pemrograman, **Python**, **Pascal**, dll (seperti Algoritma & Pemrograman dan Struktur Data). Semua kode di dalam repositori ini dibuat untuk memenuhi tugas akademik di program studi Informatika/Sistem Informasi.
 
@@ -17,7 +20,7 @@ Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam reposi
 <table>
   <tr>
     <td width="60%">
-      <h3>1. 💵 Program Sistem Gaji Bulanan (<code>./ProgramSistemGaji</code>)</h3>
+      <h3>💵 Program Sistem Gaji Bulanan (<code>./ProgramSistemGaji</code>)</h3>
       <ul>
         <li><b>Mata Kuliah:</b> Struktur Data</li>
         <li><b>Konsep:</b> Operasi Aritmatika, Percabangan (<code>if-then-else</code> / <code>case-of</code>), dan tipe data Record untuk data karyawan.</li>
@@ -36,7 +39,7 @@ Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam reposi
   </tr>
   <tr>
     <td width="60%">
-      <h3>2. 📞 Program Buku Telepon (<code>./ProgramBukuTelepon</code>)</h3>
+      <h3>📞 Program Buku Telepon (<code>./ProgramBukuTelepon</code>)</h3>
       <ul>
         <li><b>Mata Kuliah:</b> Struktur Data</li>
         <li><b>Konsep:</b> Parallel Arrays, Konstanta, Array Terstruktur.</li>
@@ -56,7 +59,7 @@ Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam reposi
   </tr>
   <tr>
     <td width="60%">
-      <h3>3. 🏙️ Program Data Kota (<code>./ProgramDataKota</code>)</h3>
+      <h3>🏙️ Program Data Kota (<code>./ProgramDataKota</code>)</h3>
       <ul>
         <li><b>Mata Kuliah:</b> Struktur Data</li>
         <li><b>Konsep:</b> Array 1-Dimensi / Record.</li>
@@ -75,7 +78,7 @@ Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam reposi
   </tr>
   <tr>
     <td width="60%">
-      <h3>4. 🔢 Program Pengurutan Array (<code>./ProgramPengurutanArray</code>)</h3>
+      <h3>🔢 Program Pengurutan Array (<code>./ProgramPengurutanArray</code>)</h3>
       <ul>
         <li><b>Mata Kuliah:</b> Struktur Data</li>
         <li><b>Konsep:</b> Sorting (<i>Bubble Sort / Selection Sort / Insertion Sort</i>).</li>
@@ -94,7 +97,7 @@ Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam reposi
   </tr>
   <tr>
     <td width="60%">
-      <h3>5. 🎓 Program Sistem Informasi Akademik (<code>./SistemInformasiAkademik</code>)</h3>
+      <h3>🎓 Program Sistem Informasi Akademik (<code>./SistemInformasiAkademik</code>)</h3>
       <ul>
         <li><b>Mata Kuliah:</b> Struktur Data</li>
         <li><b>Konsep:</b>  Array of Struct, Prosedur Modular, Sequential Search, dan Format Tabel (<i>Fixed-Width Padding)</i>.</li>
@@ -113,10 +116,10 @@ Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam reposi
   </tr>
   <tr>
     <td width="60%">
-      <h3>6. ? ON GOING (<code>./namaFile</code>)</h3>
+      <h3>🚧 Pengembangan Mendatang (<code>./namaFile</code>)</h3>
       <ul>
         <li><b>Mata Kuliah:</b> Struktur Data</li>
-        <li><b>Konsep:</b> Dalam Perencanaan.</li>
+        <li><b>Konsep:</b> Sedang mengerjakan proyek RNLDstock&service yang berfokus pada Pengelolaan Stok Sparepart dan Manajemen Jasa Service HP berbasis Visual dan Database. Nantikan update selanjutnya!</li>
         <li><b>Fitur:</b> 
             <ul>
                 <li>Fitur 1.</li>
@@ -144,18 +147,19 @@ Untuk mengompilasi dan menjalankan program-program di atas, Anda memerlukan comp
 ## 🚀 Cara Menjalankan Program
 
 Pilih salah satu file tugas yang ingin dijalankan, kemudian ikuti langkah-langkah berikut melalui Terminal atau Command Prompt:
-
-#. **Akses File Hasil Download Lewat Terminal:**
+1. **Buka Terminal atau Command Prompt.**
+2. **Masuk ke direktori proyek menggunakan perintah `cd`:**
+   jika di folder Download:
    ```bash
     cd C:\Users\rizky\Downloads\
    ```
    Note : rizky --> ganti ke nama user sesuai profile di komputer Anda
    
-1. **Kompilasi kode sumber menggunakan FPC:**
+3. **Kompilasi kode sumber menggunakan FPC:**
    ```bash
    Fpc namafile.pas
    ```
-2. **Jalankan file executable hasil kompilasi:**
+4. **Jalankan file executable hasil kompilasi:**
    ```bash
    ./namafile
    ```
