@@ -274,3 +274,5 @@ Pilih salah satu file tugas yang ingin dijalankan, kemudian ikuti langkah-langka
 <p align="center">
   <a href="#-repositori-tugas-kuliah">🔺 Kembali ke Atas 🔺</a>
 </p>
+
+<div align="center">© 2026 M. Rizky Rinaldy. All Rights Reserved.</div>
