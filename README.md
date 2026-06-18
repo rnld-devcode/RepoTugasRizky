@@ -6,10 +6,13 @@
 ![VS Code](https://img.shields.io/badge/IDE-VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Ongoing-yellow)
 ![Version](https://img.shields.io/badge/Version-v1.0.0-blue)
+![Repo Size](https://img.shields.io/github/repo-size/rnld-devcode/RepoTugasRizky?style=flat)
+
 <!-- ![Status](https://img.shields.io/badge/Status-Completed-success) -->
 
 
 Repositori ini merupakan kumpulan tugas kuliah, latihan praktikum, dan proyek ujian untuk mata kuliah berbasis bahasa pemrograman, **Python**, **Pascal**, dll (seperti Algoritma & Pemrograman dan Struktur Data). Semua kode di dalam repositori ini dibuat untuk memenuhi tugas akademik di program studi Informatika/Sistem Informasi.
+
 
 ---
 
@@ -23,6 +26,7 @@ Repositori ini merupakan kumpulan tugas kuliah, latihan praktikum, dan proyek uj
   <img src="https://github-readme-stats.vercel.app/api?username=rnld-devcode&show_icons=true&theme=tokyonight" alt="Statistik GitHub" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rnld-devcode&layout=compact&theme=tokyonight" alt="Bahasa Pemrograman Terbanyak" />
 </p>
+
 ---
 
 ## 🗂️ Daftar Tugas
