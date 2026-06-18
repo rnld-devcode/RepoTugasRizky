@@ -3,15 +3,17 @@
 ![Python](https://img.shields.io/badge/Language-Python-blue)
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white)
 ![MySQL](https://img.shields.io/badge/Database-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+<br>
 ![Status](https://img.shields.io/badge/Status-Ongoing-yellow)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Windows](https://img.shields.io/badge/OS-Windows-0078D4?style=flat&logo=windows&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/OS-Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white)
+<br>
 ![VS Code](https://img.shields.io/badge/IDE-VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
 ![Git](https://img.shields.io/badge/VCS-Git-F05032?style=flat&logo=git&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 ![Version](https://img.shields.io/badge/Version-v1.0.0-blue)
-![Repo Size](https://img.shields.io/github/repo-size/rnld-devcode/nama-repo)
+![Repo Size](https://img.shields.io/github/repo-size/rnld-devcode/RepoTugasRizky)
 
 Repositori ini merupakan kumpulan tugas kuliah, latihan praktikum, dan proyek ujian untuk mata kuliah berbasis bahasa pemrograman, **Python**, **Pascal**, dll (seperti Algoritma & Pemrograman dan Struktur Data). Semua kode di dalam repositori ini dibuat untuk memenuhi tugas akademik di program studi Informatika/Sistem Informasi.
 
