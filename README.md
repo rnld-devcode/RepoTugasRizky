@@ -1,13 +1,14 @@
 # 📚 Repositori Tugas Kuliah
-<p align ="left">
-  ![Pascal](https://img.shields.io/badge/Language-Pascal-blue)
-  ![MySQL](https://img.shields.io/badge/Database-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-  ![Ubuntu](https://img.shields.io/badge/OS-Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white)
-  ![VS Code](https://img.shields.io/badge/IDE-VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
-  ![Status](https://img.shields.io/badge/Status-Ongoing-yellow)
-  ![Version](https://img.shields.io/badge/Version-v1.0.0-blue)
-</p>
+
+![Pascal](https://img.shields.io/badge/Language-Pascal-blue)
+![MySQL](https://img.shields.io/badge/Database-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/OS-Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white)
+![VS Code](https://img.shields.io/badge/IDE-VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Ongoing-yellow)
+![Version](https://img.shields.io/badge/Version-v1.0.0-blue)
 <!-- ![Status](https://img.shields.io/badge/Status-Completed-success) -->
+
+
 Repositori ini merupakan kumpulan tugas kuliah, latihan praktikum, dan proyek ujian untuk mata kuliah berbasis bahasa pemrograman, **Python**, **Pascal**, dll (seperti Algoritma & Pemrograman dan Struktur Data). Semua kode di dalam repositori ini dibuat untuk memenuhi tugas akademik di program studi Informatika/Sistem Informasi.
 
 ---
