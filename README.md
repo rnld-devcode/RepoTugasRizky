@@ -1,4 +1,4 @@
-# 📚 Repositori Tugas Kuliah
+![Header Banner](https://img.shields.io/badge/M._Rizky_Rinaldy-Repository_Tugas_Pascal-39FF14?style=for-the-badge&labelColor=000000)
 
 ![Pascal](https://img.shields.io/badge/Language-Pascal-blue)
 ![MySQL](https://img.shields.io/badge/Database-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
@@ -10,6 +10,7 @@
 
 <!-- ![Status](https://img.shields.io/badge/Status-Completed-success) -->
 
+![Typing Effect](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=39FF14&width=500&lines=NPM+:+2510010102;Nama+:+M.+Rizky+Rinaldy;Fakultas+Teknologi+Informasi;Universitas+Islam+Kalimantan+Muhammad+Arsyad+AlBanjari;Semangat+Coding!🚀)
 
 Repositori ini merupakan kumpulan tugas kuliah, latihan praktikum, dan proyek ujian untuk mata kuliah berbasis bahasa pemrograman, **Python**, **Pascal**, dll (seperti Algoritma & Pemrograman dan Struktur Data). Semua kode di dalam repositori ini dibuat untuk memenuhi tugas akademik di program studi Informatika/Sistem Informasi.
 
@@ -223,17 +224,31 @@ Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam reposi
 ## 📂 Struktur Direktori
 
 ```text
+## 📁 Struktur Direktori
+
+```text
+REPOTUGASRIZKY/
 ├── img/
 │   └── PratinjauProgram/
-│       ├── SistemGajiBulanan.png
+│       ├── InstruksiMenjalankanProgram.png
+│       ├── LifePhilosofy.png
+│       ├── Logo-FTI.png
+│       ├── Logo-Uniska.png
 │       ├── ProgramBukuTelepon.png
-│       └── ...
+│       ├── ProgramDataKota.png
+│       ├── ProgramPengurutanArray.png
+│       ├── ProgramSimulasiStackBuku.png
+│       ├── ProgramSistemInformasiAkademik.png
+│       └── SistemGajiBulanan.png
+├── Pascal-StrData_IbuDesylkaPuspitasari/
 ├── ProgramBukuTelepon.pas
 ├── ProgramDataKota.pas
 ├── ProgramPengurutanArray.pas
-├── ProgramSistemGaji.pas
 ├── SimulasiTumpukanBuku.pas
+├── SistemGajiBulanan.pas
 ├── SistemInformasiAkademik.pas
+├── .gitignore
+├── LICENSE.txt
 └── README.md
 ```
 
