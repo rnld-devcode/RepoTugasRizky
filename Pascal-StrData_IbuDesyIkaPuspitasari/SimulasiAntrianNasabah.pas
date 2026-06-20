@@ -271,7 +271,7 @@ begin
     clrscr;
     MuatIndexAwal();
     writeln; writeln; writeln;
-    TeksAnimasi('STRUKTUR DATA - QUEUE(ANTRIAN)', '-');
+    TeksAnimasi('STRUKTUR DATA - QUEUE(Store & Retrieve)', '-');
     TeksAnimasi('2510010102 - M. Rizky Rinaldy', '-');
     loading('Sinkronisasi Sistem Antrian');
     
