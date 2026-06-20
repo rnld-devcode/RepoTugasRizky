@@ -196,6 +196,29 @@ Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam reposi
   </tr>
   <tr>
     <td width="60%">
+      <h3>🏦 Program Simulasi Antrian Nasabah (<code>./SimulasiAntrianNasabah</code>)</h3>
+      <ul>
+        <li><b>Mata Kuliah:</b> Struktur Data</li>
+        <li><b>Konsep:</b> Queue (Antrian FIFO - First In First Out) berbasis Circular Array of Record, Prosedur Modular, Sinkronisasi Pointer Multi-Loket (Rear & Front), Pemisahan Hak Akses Menu, dan Live Board Dashboard Terintegrasi (Fixed-Width Padding dengan Grid Alignment).</li>
+        <li><b>Fitur:</b> 
+        <details>
+          <summary><b>🔍 Klik untuk melihat detail fitur program</b></summary>
+            <ul>
+                <li><b>Manajemen Objek Record & Dual-Array:</b> Menyimpan informasi biodata nasabah (Nomor Rekening, Nama, dan Kode Tiket Otomatis) ke dalam dua buah Array statis terpisah untuk membagi beban pelayanan pada loket <code>queueTeller</code> dan loket <code>queueCS</code> dengan batas tampung <code>MAX_ANTRIAN = 15</code>.</li>
+                <li><b>Manajemen Antrian Pintar (Circular Queue System):</b> Mengimplementasikan rumus modular aritmatika <code>(posisi mod MAX_ANTRIAN) + 1</code> pada operasi penambahan (<code>Store</code>) dan pemanggilan (<code>Retrieve</code>) guna mencegah masalah memori penuh semu pada array statis serta mengoptimalkan penggunaan ruang memori yang kosong.</li>
+                <li><b>Papan Informasi Monitor Real-Time (Live Dashboard):</b> Menampilkan visualisasi antrian aktif secara berdampingan (side-by-side grid) secara langsung di menu utama program. Prosedur ini menggunakan teknik perhitungan string dinamis untuk memastikan garis pembatas kolom vertikal  tetap tegak lurus secara simetris di lebar screen 100 karakter(<code>WIDTH = 100</code>).</li>
+                <li><b>Pemisahan Antarmuka Berbasis Peran (Role-Based Menu):</b> Memisahkan menu operasi secara visual menjadi <i>Menu Nasabah</i> (untuk mengambil nomor antrian) dan <i>Menu Petugas Bank</i> (untuk melakukan panggilan pelayanan) menggunakan validasi input karakter tunggal instan lewat <code>upcase(readkey)</code>.</li>
+            </ul>
+        </details>
+        </li>
+      </ul>
+    </td>
+    <td width="40%">
+      <img src="img/PratinjauProgram/SistemAntrianNasabah.png" alt="Pratinjau_SimulasiAntrianNasabah">
+    </td>
+  </tr>
+  <tr>
+    <td width="60%">
       <h3>🚧 Pengembangan Mendatang (<code>./namaFile</code>)</h3>
       <ul>
         <li><b>Mata Kuliah:</b> Struktur Data</li>
