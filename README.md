@@ -268,6 +268,7 @@ REPOTUGASRIZKY/
 ├── ProgramDataKota.pas
 ├── ProgramPengurutanArray.pas
 ├── SimulasiTumpukanBuku.pas
+├── SimulasiAntrianNasabah.pas
 ├── SistemGajiBulanan.pas
 ├── SistemInformasiAkademik.pas
 ├── .gitignore
