@@ -8,7 +8,8 @@ uses
   FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys, FireDAC.Phys.MySQL,
   FireDAC.Phys.MySQLDef, FireDAC.VCLUI.Wait, Data.DB, FireDAC.Comp.Client,
   FireDAC.Stan.Param, FireDAC.DatS, FireDAC.DApt.Intf, FireDAC.DApt,
-  FireDAC.Comp.DataSet;
+  FireDAC.Comp.DataSet, System.ImageList, Vcl.ImgList, Vcl.VirtualImageList,
+  Vcl.BaseImageCollection, Vcl.ImageCollection;
 
 type
   TDataModule1 = class(TDataModule)
@@ -28,6 +29,25 @@ type
     FDQueryDosenalamat: TStringField;
     FDQueryDosenpendidikan_terakhir: TStringField;
     FDPhysMySQLDriverLinkUniska: TFDPhysMySQLDriverLink;
+    FDQueryJadwalPerkuliahan: TFDQuery;
+    FDQueryCRUDJadwal: TFDQuery;
+    FDAutoIncField1: TFDAutoIncField;
+    IntegerField1: TIntegerField;
+    IntegerField2: TIntegerField;
+    StringField1: TStringField;
+    StringField2: TStringField;
+    StringField3: TStringField;
+    FDQueryJadwalPerkuliahanid: TFDAutoIncField;
+    FDQueryJadwalPerkuliahanmatkul_id: TIntegerField;
+    FDQueryJadwalPerkuliahandosen_id: TIntegerField;
+    FDQueryJadwalPerkuliahanhari: TStringField;
+    FDQueryJadwalPerkuliahanwaktu: TStringField;
+    FDQueryJadwalPerkuliahanruang: TStringField;
+    FDQueryJadwalPerkuliahannama_mk: TStringField;
+    FDQueryJadwalPerkuliahannama_dosen: TStringField;
+    ImageMenu: TImageCollection;
+    VirtualImageMenu: TVirtualImageList;
+    VirtualImageButton: TVirtualImageList;
   private
     { Private declarations }
   public

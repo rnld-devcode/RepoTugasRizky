@@ -1,41 +1,41 @@
 object FormDataDosen: TFormDataDosen
   Left = 0
   Top = 0
+  BorderStyle = bsNone
   Caption = 'FormDataDosen'
-  ClientHeight = 681
-  ClientWidth = 634
+  ClientHeight = 780
+  ClientWidth = 1300
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
+  WindowState = wsMaximized
   OnCreate = FormCreate
   TextHeight = 15
   object MainPanel: TPanel
     Left = 0
     Top = 0
-    Width = 634
-    Height = 681
+    Width = 1300
+    Height = 780
     Align = alClient
     TabOrder = 0
-    ExplicitWidth = 1002
-    ExplicitHeight = 664
     object StatusBarRizky: TStatusBar
       Left = 1
-      Top = 655
-      Width = 632
+      Top = 754
+      Width = 1298
       Height = 25
       Panels = <
         item
           Alignment = taCenter
           Text = '2510010102'
-          Width = 150
+          Width = 100
         end
         item
           Alignment = taCenter
           Text = 'M. Rizky Rinaldy'
-          Width = 200
+          Width = 150
         end
         item
           Alignment = taCenter
@@ -47,23 +47,23 @@ object FormDataDosen: TFormDataDosen
           Text = 'FTI - UNISKA'
           Width = 50
         end>
-      ExplicitWidth = 1006
     end
     object HeaderPanel: TPanel
       Left = 1
       Top = 1
-      Width = 632
+      Width = 1298
       Height = 78
       Align = alTop
       Caption = 'FORM DATA DOSEN'
+      Color = clSkyBlue
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText
       Font.Height = -32
       Font.Name = 'Segoe UI'
       Font.Style = [fsBold]
+      ParentBackground = False
       ParentFont = False
       TabOrder = 1
-      ExplicitWidth = 1006
       object Image1: TImage
         AlignWithMargins = True
         Left = 31
@@ -5996,7 +5996,7 @@ object FormDataDosen: TFormDataDosen
       end
       object Image2: TImage
         AlignWithMargins = True
-        Left = 531
+        Left = 1197
         Top = 4
         Width = 70
         Height = 70
@@ -7186,59 +7186,55 @@ object FormDataDosen: TFormDataDosen
     object InputPanel: TPanel
       Left = 1
       Top = 79
-      Width = 632
+      Width = 1298
       Height = 150
       Align = alTop
       BevelOuter = bvNone
+      Color = clSkyBlue
+      ParentBackground = False
       TabOrder = 2
-      ExplicitWidth = 1006
       DesignSize = (
-        632
+        1298
         150)
       object Label1: TLabel
         Left = 50
         Top = 131
-        Width = 100
+        Width = 215
         Height = 15
-        Anchors = [akLeft, akTop, akRight]
         Caption = 'Jenjang'
       end
       object Label2: TLabel
         Left = 50
         Top = 44
-        Width = 100
+        Width = 215
         Height = 15
-        Anchors = [akLeft, akTop, akRight]
         Caption = 'Nama Dosen'
       end
       object Label3: TLabel
         Left = 50
         Top = 105
-        Width = 100
+        Width = 227
         Height = 15
-        Anchors = [akLeft, akTop, akRight]
         Caption = 'Tahun Bekerja'
       end
       object Label4: TLabel
         Left = 50
         Top = 76
-        Width = 100
+        Width = 227
         Height = 15
-        Anchors = [akLeft, akTop, akRight]
         Caption = 'Alamat'
       end
       object Label5: TLabel
         Left = 50
         Top = 18
-        Width = 100
+        Width = 215
         Height = 15
-        Anchors = [akLeft, akTop, akRight]
         Caption = 'NIDN Dosen'
       end
       object EdNIDN: TEdit
         Left = 300
         Top = 15
-        Width = 100
+        Width = 766
         Height = 23
         Anchors = [akLeft, akTop, akRight]
         TabOrder = 0
@@ -7247,7 +7243,7 @@ object FormDataDosen: TFormDataDosen
       object EdNamaDosen: TEdit
         Left = 300
         Top = 44
-        Width = 200
+        Width = 866
         Height = 23
         Anchors = [akLeft, akTop, akRight]
         TabOrder = 1
@@ -7255,7 +7251,7 @@ object FormDataDosen: TFormDataDosen
       object EdAlamat: TEdit
         Left = 300
         Top = 73
-        Width = 200
+        Width = 866
         Height = 23
         Anchors = [akLeft, akTop, akRight]
         TabOrder = 2
@@ -7263,7 +7259,7 @@ object FormDataDosen: TFormDataDosen
       object EdTahunBekerja: TEdit
         Left = 300
         Top = 102
-        Width = 100
+        Width = 766
         Height = 23
         Anchors = [akLeft, akTop, akRight]
         TabOrder = 3
@@ -7278,7 +7274,7 @@ object FormDataDosen: TFormDataDosen
         TabOrder = 4
       end
       object RBS3: TRadioButton
-        Left = 380
+        Left = 396
         Top = 131
         Width = 100
         Height = 17
@@ -7287,9 +7283,9 @@ object FormDataDosen: TFormDataDosen
         TabOrder = 5
       end
       object EdID: TEdit
-        Left = 420
+        Left = 1072
         Top = 15
-        Width = 80
+        Width = 94
         Height = 23
         Anchors = [akLeft, akTop, akRight]
         TabOrder = 6
@@ -7300,17 +7296,18 @@ object FormDataDosen: TFormDataDosen
     object ButtonPanel: TPanel
       Left = 1
       Top = 229
-      Width = 632
+      Width = 1298
       Height = 50
       Align = alTop
       BevelOuter = bvNone
       BiDiMode = bdLeftToRight
+      Color = clSkyBlue
       ParentBiDiMode = False
+      ParentBackground = False
       TabOrder = 3
-      ExplicitWidth = 1006
       object BitTutup: TBitBtn
         AlignWithMargins = True
-        Left = 490
+        Left = 840
         Top = 10
         Width = 100
         Height = 30
@@ -7319,14 +7316,23 @@ object FormDataDosen: TFormDataDosen
         Margins.Right = 5
         Margins.Bottom = 10
         Align = alLeft
-        Caption = 'TUTUP'
+        Caption = 'TUTUP   '
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ImageIndex = 5
+        ImageName = 'cross'
+        Images = DataModule1.VirtualImageButton
+        Layout = blGlyphRight
+        ParentFont = False
         TabOrder = 0
         OnClick = BitTutupClick
-        ExplicitLeft = 740
       end
       object BitBersih: TBitBtn
         AlignWithMargins = True
-        Left = 380
+        Left = 730
         Top = 10
         Width = 100
         Height = 30
@@ -7336,13 +7342,22 @@ object FormDataDosen: TFormDataDosen
         Margins.Bottom = 10
         Align = alLeft
         Caption = 'BERSIHKAN'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ImageIndex = 7
+        ImageName = 'rubber'
+        Images = DataModule1.VirtualImageButton
+        Layout = blGlyphRight
+        ParentFont = False
         TabOrder = 1
         OnClick = BitBersihClick
-        ExplicitLeft = 630
       end
       object BitHapus: TBitBtn
         AlignWithMargins = True
-        Left = 270
+        Left = 620
         Top = 10
         Width = 100
         Height = 30
@@ -7351,14 +7366,23 @@ object FormDataDosen: TFormDataDosen
         Margins.Right = 5
         Margins.Bottom = 10
         Align = alLeft
-        Caption = 'HAPUS'
+        Caption = 'HAPUS   '
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ImageIndex = 8
+        ImageName = 'trash'
+        Images = DataModule1.VirtualImageButton
+        Layout = blGlyphRight
+        ParentFont = False
         TabOrder = 2
         OnClick = BitHapusClick
-        ExplicitLeft = 520
       end
       object BitUbah: TBitBtn
         AlignWithMargins = True
-        Left = 160
+        Left = 510
         Top = 10
         Width = 100
         Height = 30
@@ -7367,14 +7391,23 @@ object FormDataDosen: TFormDataDosen
         Margins.Right = 5
         Margins.Bottom = 10
         Align = alLeft
-        Caption = 'UBAH'
+        Caption = 'UBAH   '
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ImageIndex = 6
+        ImageName = 'edit'
+        Images = DataModule1.VirtualImageButton
+        Layout = blGlyphRight
+        ParentFont = False
         TabOrder = 3
         OnClick = BitUbahClick
-        ExplicitLeft = 410
       end
       object BitTambah: TBitBtn
         AlignWithMargins = True
-        Left = 50
+        Left = 400
         Top = 10
         Width = 100
         Height = 30
@@ -7383,36 +7416,46 @@ object FormDataDosen: TFormDataDosen
         Margins.Right = 5
         Margins.Bottom = 10
         Align = alLeft
-        Caption = 'TAMBAH'
+        Caption = 'TAMBAH   '
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ImageIndex = 4
+        ImageName = 'add'
+        Images = DataModule1.VirtualImageButton
+        Layout = blGlyphRight
+        ParentFont = False
         TabOrder = 4
         OnClick = BitTambahClick
-        ExplicitLeft = 300
       end
       object SideLPanel: TPanel
         Left = 0
         Top = 0
-        Width = 50
+        Width = 400
         Height = 50
         Align = alLeft
         BevelOuter = bvNone
+        Color = clSkyBlue
+        ParentBackground = False
         TabOrder = 5
       end
     end
     object GridPanel: TPanel
       Left = 1
       Top = 279
-      Width = 632
-      Height = 376
+      Width = 1298
+      Height = 475
       Align = alClient
       BevelOuter = bvNone
       TabOrder = 4
-      ExplicitWidth = 1006
       object TabelDataDosen: TDBGrid
         AlignWithMargins = True
         Left = 10
         Top = 40
-        Width = 612
-        Height = 326
+        Width = 1278
+        Height = 425
         Margins.Left = 10
         Margins.Top = 10
         Margins.Right = 10
@@ -7434,7 +7477,7 @@ object FormDataDosen: TFormDataDosen
             FieldName = 'id'
             Title.Alignment = taCenter
             Title.Caption = 'ID'
-            Width = 30
+            Width = 50
             Visible = True
           end
           item
@@ -7443,7 +7486,7 @@ object FormDataDosen: TFormDataDosen
             FieldName = 'nidn'
             Title.Alignment = taCenter
             Title.Caption = 'NIDN'
-            Width = 100
+            Width = 150
             Visible = True
           end
           item
@@ -7451,7 +7494,7 @@ object FormDataDosen: TFormDataDosen
             FieldName = 'nama_dosen'
             Title.Alignment = taCenter
             Title.Caption = 'Nama Dosen'
-            Width = 150
+            Width = 300
             Visible = True
           end
           item
@@ -7460,7 +7503,7 @@ object FormDataDosen: TFormDataDosen
             FieldName = 'tahun_bekerja'
             Title.Alignment = taCenter
             Title.Caption = 'Tahun Bekerja'
-            Width = 80
+            Width = 150
             Visible = True
           end
           item
@@ -7468,7 +7511,7 @@ object FormDataDosen: TFormDataDosen
             FieldName = 'alamat'
             Title.Alignment = taCenter
             Title.Caption = 'Alamat'
-            Width = 150
+            Width = 350
             Visible = True
           end
           item
@@ -7485,35 +7528,37 @@ object FormDataDosen: TFormDataDosen
             Title.Font.Height = -10
             Title.Font.Name = 'Segoe UI'
             Title.Font.Style = []
-            Width = 150
+            Width = 200
             Visible = True
           end>
       end
       object SearchPanel: TPanel
         Left = 0
         Top = 0
-        Width = 632
+        Width = 1298
         Height = 30
         Align = alTop
         BevelOuter = bvNone
+        Color = clSkyBlue
+        ParentBackground = False
         TabOrder = 1
-        ExplicitWidth = 1006
         object Label6: TLabel
           AlignWithMargins = True
-          Left = 50
+          Left = 59
           Top = 3
-          Width = 227
+          Width = 218
           Height = 24
           Margins.Left = 80
           Margins.Right = 20
           Align = alRight
           Caption = 'Cari data dosen berdasarkan nama Dosen'
+          ExplicitHeight = 15
         end
         object SearchBoxDosen: TEdit
           AlignWithMargins = True
           Left = 300
           Top = 3
-          Width = 232
+          Width = 898
           Height = 24
           Margins.Right = 100
           Align = alRight
@@ -7521,6 +7566,7 @@ object FormDataDosen: TFormDataDosen
           TabOrder = 0
           TextHint = 'Nama Dosen'
           OnChange = SearchBoxDosenChange
+          ExplicitHeight = 23
         end
       end
     end
@@ -7528,6 +7574,6 @@ object FormDataDosen: TFormDataDosen
   object DataTabelDosen: TDataSource
     DataSet = DataModule1.FDQueryDosen
     Left = 17
-    Top = 583
+    Top = 711
   end
 end

@@ -78,6 +78,7 @@ end;
 procedure TFormDataDosen.BitBersihClick(Sender: TObject);
 begin
   bersih;
+  SearchBoxDosen.Clear;
   DataModule1.FDQueryDosen.Close;
   DataModule1.FDQueryDosen.sql.Text := 'SELECT * FROM dosen';;
   DataModule1.FDQueryDosen.Open();

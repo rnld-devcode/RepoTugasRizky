@@ -5,7 +5,11 @@ uses
   DataMatakuliah in 'DataMatakuliah.pas' {FormMataKuliah},
   DataModule in 'DataModule.pas' {DataModule1: TDataModule},
   DataDosen in 'DataDosen.pas' {FormDataDosen},
-  MenuUniska in 'MenuUniska.pas' {FormMenuUniska};
+  MenuUniska in 'MenuUniska.pas' {FormMenuUniska},
+  DataJadwalPerkuliahan in 'DataJadwalPerkuliahan.pas' {FormJadwalPerkuliahan},
+  Vcl.Themes,
+  Vcl.Styles,
+  ProfilePengguna in 'ProfilePengguna.pas' {FormProfile};
 
 {$R *.res}
 
@@ -16,5 +20,7 @@ begin
   Application.CreateForm(TFormMataKuliah, FormMataKuliah);
   Application.CreateForm(TDataModule1, DataModule1);
   Application.CreateForm(TFormDataDosen, FormDataDosen);
+  Application.CreateForm(TFormJadwalPerkuliahan, FormJadwalPerkuliahan);
+  Application.CreateForm(TFormProfile, FormProfile);
   Application.Run;
 end.

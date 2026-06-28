@@ -81,6 +81,7 @@ end;
 procedure TFormMataKuliah.BitBersihClick(Sender: TObject);
 begin
   bersih;
+  SearchBoxMK.Clear;
   DataModule1.FDQueryMataKuliah.Close;
   DataModule1.FDQueryMataKuliah.sql.Text := 'SELECT * FROM mata_kuliah;';
   DataModule1.FDQueryMataKuliah.Open();
