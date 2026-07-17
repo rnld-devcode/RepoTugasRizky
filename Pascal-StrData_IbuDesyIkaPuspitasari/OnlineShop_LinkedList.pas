@@ -363,7 +363,7 @@ procedure batalkanPesanan(nomorUrut: integer; pembeliLogin: string);
 
 procedure tampilkanRiwayat(pembeliLogin: string; isAdmin: boolean);
 var 
-  curr, cek: PNode; 
+  curr: PNode; 
   count: integer;
   sudahDitampilkan: boolean;
   daftarID: array of string;
@@ -481,7 +481,7 @@ begin
           listMenu('1. [ ORDER   ] Pesan Barang', WIDTH);
           listMenu('2. [ CANCEL  ] Batalkan Pesanan', WIDTH);
           listMenu('3. [ HISTORY ] Lihat Riwayat Pesanan', WIDTH);
-          listMenu('0. Kembali', WIDTH);
+          listMenu('0. [ LOG OUT ]', WIDTH);
           cetakGaris(WIDTH, '-');
           write(' ==> Pilih: '); readln(subPilihan);
           case subPilihan of
@@ -513,7 +513,7 @@ begin
                   listMenu('1. [ ORDERAN ] Lihat Antrian', WIDTH);
                   listMenu('2. [ KIRIM   ] Proses Pesanan', WIDTH);
                   listMenu('3. [ HISTORY ] Lihat Riwayat Pesanan', WIDTH);
-                  listMenu('0. Kembali', WIDTH);
+                  listMenu('0. [ LOG OUT ]', WIDTH);
                   cetakGaris(WIDTH, '-');
                   write(' ==> Pilih: '); readln(subPilihan);
                   case UpperCase(subPilihan) of
