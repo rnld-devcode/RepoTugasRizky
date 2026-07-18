@@ -253,20 +253,6 @@ Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam reposi
 
 ```text
 REPOTUGASRIZKY/
-├── img/
-│   └── PratinjauProgram/
-│       ├── InstruksiMenjalankanProgram.png
-│       ├── LifePhilosofy.png
-│       ├── Logo-FTI.png
-│       ├── Logo-Uniska.png
-│       ├── ProgramBukuTelepon.png
-│       ├── ProgramDataKota.png
-│       ├── ProgramPengurutanArray.png
-│       ├── ProgramSimulasiAntrianNasabah.png
-│       ├── ProgramSimulasiStackBuku.png
-│       ├── ProgramSistemInformasiAkademik.png
-│       ├── SistemGajiBulanan.png
-│       └── SistemOnlineShop.png
 ├── Pascal-StrData_IbuDesylkaPuspitasari/
 ├── ProgramBukuTelepon.pas
 ├── ProgramDataKota.pas
