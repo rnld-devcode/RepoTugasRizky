@@ -1,5 +1,6 @@
 ![Header Banner](https://img.shields.io/badge/M._Rizky_Rinaldy-Repository_Tugas_Pascal-39FF14?style=for-the-badge&labelColor=000000)
 
+![Pascal](https://img.shields.io/badge/Pascal-FPC-blue)
 ![Pascal](https://img.shields.io/badge/Language-Pascal-blue)
 ![MySQL](https://img.shields.io/badge/Database-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/OS-Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white)
@@ -37,7 +38,7 @@ Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam reposi
 <table>
   <tr>
     <td width="60%">
-      <h3>💵 Program Sistem Gaji Bulanan (<code>./ProgramSistemGaji</code>)</h3>
+      <h3><a href="Pascal-StrData_IbuDesyIkaPuspitasari/SistemGajiBulanan.pas">💵 Program Sistem Gaji Bulanan</a> (<code>./ProgramSistemGaji</code>)</h3>
       <ul>
         <li><b>Mata Kuliah:</b> Struktur Data</li>
         <li><b>Konsep:</b> Entitas Single Record (Struct tunggal), Parameter Referensi (var), Fungsi Pengembalian Nilai (User-Defined Functions), Konstanta Global, dan Pemformatan Keuangan Desimal (:10:0).</li>
@@ -59,7 +60,7 @@ Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam reposi
   </tr>
   <tr>
     <td width="60%">
-      <h3>📞 Program Buku Telepon (<code>./ProgramBukuTelepon</code>)</h3>
+      <h3><a href="Pascal-StrData_IbuDesyIkaPuspitasari/ProgramBukuTelepon.pas">📞 Program Buku Telepon</a> (<code>./ProgramBukuTelepon</code>)</h3>
       <ul>
         <li><b>Mata Kuliah:</b> Struktur Data</li>
         <li><b>Konsep:</b> Larik Paralel (Parallel Arrays), Manajemen Penunjuk Indeks (Index Pointer), Operasi Append Array, Pencarian Sekuensial (Sequential Search), dan Penanganan Batas Memori (Overflow Handling).</li>
@@ -82,7 +83,7 @@ Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam reposi
   </tr>
   <tr>
     <td width="60%">
-      <h3>🏙️ Program Data Kota (<code>./ProgramDataKota</code>)</h3>
+      <h3><a href="Pascal-StrData_IbuDesyIkaPuspitasari/ProgramDataKota.pas">🏙️ Program Data Kota</a> (<code>./ProgramDataKota</code>)</h3>
       <ul>
         <li><b>Mata Kuliah:</b> Struktur Data</li>
         <li><b>Konsep:</b> Larik Paralel (Parallel Arrays), Pencarian Linear (Sequential/Linear Search), Optimasi Early Exit (break), dan Normalisasi String (upcase).</li>
@@ -104,7 +105,7 @@ Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam reposi
   </tr>
   <tr>
     <td width="60%">
-      <h3>🔢 Program Pengurutan Array (<code>./ProgramPengurutanArray</code>)</h3>
+      <h3><a href="Pascal-StrData_IbuDesyIkaPuspitasari/ProgramPengurutanArray.pas">🔢 Program Pengurutan Array</a> (<code>./ProgramPengurutanArray</code>)</h3>
       <ul>
         <li><b>Mata Kuliah:</b> Struktur Data</li>
         <li><b>Konsep:</b> Algoritma Pengurutan (Sorting Algorithms), Benchmark Waktu Eksperimental, Windows API Interoperability (windows.inc), dan Komparasi Kompleksitas Waktu.</li>
@@ -132,7 +133,7 @@ Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam reposi
   </tr>
   <tr>
     <td width="60%">
-      <h3>🎓 Program Sistem Informasi Akademik (<code>./SistemInformasiAkademik</code>)</h3>
+      <h3><a href="Pascal-StrData_IbuDesyIkaPuspitasari/SistemInformasiAkademik.pas">🎓 Program Sistem Informasi Akademik</a> (<code>./SistemInformasiAkademik</code>)</h3>
       <ul>
         <li><b>Mata Kuliah:</b> Struktur Data</li>
         <li><b>Konsep:</b> Penerapan relasi data yang kompleks di mana record KRS (menyimpan kode mata kuliah dan nilai huruf mahasiswa) ditanam sebagai array di dalam tipe data Mahasiswa. Hal ini memungkinkan satu entitas mahasiswa memiliki riwayat akademiknya sendiri yang unik.</li>
@@ -169,7 +170,7 @@ Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam reposi
   </tr>
   <tr>
     <td width="60%">
-      <h3>📚 Program Simulasi Pengambilan Buku (<code>./SimulasiTumpukanBuku</code>)</h3>
+      <h3><a href="Pascal-StrData_IbuDesyIkaPuspitasari/SimulasiTumpukanBuku.pas">📚 Program Simulasi Pengambilan Buku</a>(<code>./SimulasiTumpukanBuku</code>)</h3>
       <ul>
         <li><b>Mata Kuliah:</b> Struktur Data</li>
         <li><b>Konsep:</b> Stack (Tumpukan LIFO - Last In First Out) berbasis Array of Record, Prosedur Modular, Manipulasi Pointer Top, dan Format Tabel (Fixed-Width Padding dengan Alignment).</li>
@@ -196,7 +197,7 @@ Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam reposi
   </tr>
   <tr>
     <td width="60%">
-      <h3>🏦 Program Simulasi Antrian Nasabah (<code>./SimulasiAntrianNasabah</code>)</h3>
+      <h3><a href="Pascal-StrData_IbuDesyIkaPuspitasari/SimulasiAntrianNasabah.pas">🏦 Program Simulasi Antrian Nasabah</a>(<code>./SimulasiAntrianNasabah</code>)</h3>
       <ul>
         <li><b>Mata Kuliah:</b> Struktur Data</li>
         <li><b>Konsep:</b> Queue (Antrian FIFO - First In First Out) berbasis Circular Array of Record, Prosedur Modular, Sinkronisasi Pointer Multi-Loket (Rear & Front), Pemisahan Hak Akses Menu, dan Live Board Dashboard Terintegrasi (Fixed-Width Padding dengan Grid Alignment).</li>
@@ -219,7 +220,7 @@ Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam reposi
   </tr>
 <tr>
     <td width="60%">
-      <h3><a href="Pascal-StrData_IbuDesyIkaPuspitasari/OnlineShop_LinkedList.pas">🛒 Program Sistem Online Shop (<code>./OnlineShop_LinkedList</code>)</a></h3>
+      <h3><a href="Pascal-StrData_IbuDesyIkaPuspitasari/OnlineShop_LinkedList.pas">🛒 Program Sistem Online Shop</a>(<code>./OnlineShop_LinkedList</code>)</h3>
       <ul>
         <li><b>Mata Kuliah:</b> Struktur Data</li>
         <li><b>Konsep:</b> Struktur Data Dinamis (Hybrid Queue & Stack) berbasis Linked List, Manajemen Inventaris Dynamic Array of Record, Role-Based Access Control, dan Prosedur Antarmuka Interaktif (Teks Animasi & Live Loading).</li>
@@ -310,7 +311,7 @@ Pilih salah satu file tugas yang ingin dijalankan, kemudian ikuti langkah-langka
    ```
 <div align="center">
   <img src="img/PratinjauProgram/InstruksiMenjalankanProgram.png" width="600" style="border-radius: 16px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-  <p><b>Gambar:</b> Visual Intruksi Menjalankan Program.</p>
+  <p><b>Gambar:</b> Visual Instruksi Menjalankan Program.</p>
 </div>
 
 <p align="center">
