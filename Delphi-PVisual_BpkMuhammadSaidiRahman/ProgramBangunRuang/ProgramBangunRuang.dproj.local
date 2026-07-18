@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2026/05/09 21:28:27.000.529,=C:\Users\rizky\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/05/09 21:31:23.000.228,C:\Users\rizky\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.dfm=R:\UNISKA\Semester 2\MK - Pemprograman Visual\Tugas\Latihan3_MainMenu\MainMenu.dfm</Transaction>
+    <Transaction>2026/05/09 21:31:23.000.228,C:\Users\rizky\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas=R:\UNISKA\Semester 2\MK - Pemprograman Visual\Tugas\Latihan3_MainMenu\MainMenu.pas</Transaction>
+    <Transaction>2026/05/09 21:31:42.000.798,C:\Users\rizky\OneDrive\Documents\Embarcadero\Studio\Projects\Project1.dproj=R:\UNISKA\Semester 2\MK - Pemprograman Visual\Tugas\Latihan3_MainMenu\Latihan3_MembuatMainMenu.dproj</Transaction>
+    <Transaction>2026/05/10 07:41:47.000.788,=R:\UNISKA\Semester 2\MK - Pemprograman Visual\Tugas\Latihan3_MainMenu\Unit1.pas</Transaction>
+    <Transaction>2026/05/10 07:43:14.000.477,R:\UNISKA\Semester 2\MK - Pemprograman Visual\Tugas\Latihan3_MainMenu\Unit1.dfm=R:\UNISKA\Semester 2\MK - Pemprograman Visual\Tugas\Latihan3_MainMenu\PerhitunganTabung.dfm</Transaction>
+    <Transaction>2026/05/10 07:43:14.000.477,R:\UNISKA\Semester 2\MK - Pemprograman Visual\Tugas\Latihan3_MainMenu\Unit1.pas=R:\UNISKA\Semester 2\MK - Pemprograman Visual\Tugas\Latihan3_MainMenu\PerhitunganTabung.pas</Transaction>
+    <Transaction>2026/05/10 10:10:13.000.119,=R:\UNISKA\Semester 2\MK - Pemprograman Visual\Tugas\Latihan3_MainMenu\Unit1.pas</Transaction>
+    <Transaction>2026/05/10 10:10:30.000.240,R:\UNISKA\Semester 2\MK - Pemprograman Visual\Tugas\Latihan3_MainMenu\Unit1.pas=R:\UNISKA\Semester 2\MK - Pemprograman Visual\Tugas\Latihan3_MainMenu\PerhitunganBalok.pas</Transaction>
+    <Transaction>2026/05/10 10:10:30.000.240,R:\UNISKA\Semester 2\MK - Pemprograman Visual\Tugas\Latihan3_MainMenu\Unit1.dfm=R:\UNISKA\Semester 2\MK - Pemprograman Visual\Tugas\Latihan3_MainMenu\PerhitunganBalok.dfm</Transaction>
+    <Transaction>2026/07/18 16:05:35.000.380,R:\UNISKA\RepoTugasRizky\Delphi-PVisual_BpkMuhammadSaidiRahman\ProgramBangunRuang\Latihan3_MembuatMainMenu.dproj=R:\UNISKA\RepoTugasRizky\Delphi-PVisual_BpkMuhammadSaidiRahman\ProgramBangunRuang\ProgramBangunRuang.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
