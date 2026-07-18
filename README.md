@@ -310,7 +310,7 @@ Pilih salah satu file tugas yang ingin dijalankan, kemudian ikuti langkah-langka
    ./namafile
    ```
 <div align="center">
-  <img src="img/PratinjauProgram/LangkahMenjalankanProgram.png.png" width="600" style="border-radius: 16px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <img src="img/PratinjauProgram/LangkahMenjalankanProgram.png" width="600" style="border-radius: 16px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   <p><b>Gambar:</b> Visual Instruksi Menjalankan Program.</p>
 </div>
 
