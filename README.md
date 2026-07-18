@@ -217,28 +217,29 @@ Di bawah ini adalah daftar program Pascal yang telah digabungkan ke dalam reposi
       <img src="img/PratinjauProgram/SistemAntrianNasabah.png" alt="Pratinjau_SimulasiAntrianNasabah">
     </td>
   </tr>
-  <tr>
+<tr>
     <td width="60%">
-      <h3>🚧 Pengembangan Mendatang (<code>./namaFile</code>)</h3>
+      <h3><a href="Pascal-StrData_IbuDesyIkaPuspitasari/OnlineShop_LinkedList.pas">🛒 Program Sistem Online Shop (<code>./OnlineShop_LinkedList</code>)</a></h3>
       <ul>
         <li><b>Mata Kuliah:</b> Struktur Data</li>
-        <li><b>Konsep:</b> Sedang mengerjakan proyek RNLDstock&service yang berfokus pada Pengelolaan Stok Sparepart dan Manajemen Jasa Service HP berbasis Visual dan Database. Nantikan update selanjutnya!</li>
+        <li><b>Konsep:</b> Struktur Data Dinamis (Hybrid Queue & Stack) berbasis Linked List, Manajemen Inventaris Dynamic Array of Record, Role-Based Access Control, dan Prosedur Antarmuka Interaktif (Teks Animasi & Live Loading).</li>
         <li><b>Fitur:</b> 
         <details>
           <summary><b>🔍 Klik untuk melihat detail fitur program</b></summary>
             <ul>
-                <li>Fitur 1.</li>
-                <li>Fitur 2.</li>
-                <li>Fitur 3.</li>
+                <li><b>Sistem Pesanan (Queue Linked List):</b> Mengimplementasikan antrian FIFO dengan pointer <code>head</code> dan <code>tail</code> untuk manajemen order pembeli, memastikan alokasi memori yang fleksibel dan efisien dibandingkan array statis.</li>
+                <li><b>Sistem Riwayat (Stack Linked List):</b> Menggunakan prinsip LIFO dengan struktur data <code>topStack</code> untuk merekam histori transaksi secara kronologis, memungkinkan pelacakan status pesanan secara efisien.</li>
+                <li><b>Manajemen Inventaris Dinamis (Dynamic Array):</b> Mengelola daftar barang menggunakan <code>Array of Record</code> yang dapat melakukan ekspansi otomatis (<code>SetLength</code>) saat data baru ditambahkan, disertai validasi stok otomatis saat transaksi dilakukan atau dibatalkan.</li>
+                <li><b>Dashboard Admin & Pembeli:</b> Pemisahan hak akses antara mode pembeli (untuk order dan pembatalan) dan mode penjual (untuk manajemen stok dan konfirmasi pesanan) dengan validasi password dan antarmuka menu yang informatif.</li>
             </ul>
         </details>
         </li>
       </ul>
     </td>
     <td width="40%">
-      <img src="img/PratinjauProgram/LifePhilosofy.png" alt="Pratinjau_ProgramSelanjutnya">
+      <img src="img/PratinjauProgram/SistemOnlineShop.png" alt="Pratinjau_StackQueueWithLinkedList">
     </td>
-  </tr>
+ </tr>
 </table>
 
 
@@ -260,9 +261,11 @@ REPOTUGASRIZKY/
 │       ├── ProgramBukuTelepon.png
 │       ├── ProgramDataKota.png
 │       ├── ProgramPengurutanArray.png
+│       ├── ProgramSimulasiAntrianNasabah.png
 │       ├── ProgramSimulasiStackBuku.png
 │       ├── ProgramSistemInformasiAkademik.png
-│       └── SistemGajiBulanan.png
+│       ├── SistemGajiBulanan.png
+│       └── SistemOnlineShop.png
 ├── Pascal-StrData_IbuDesylkaPuspitasari/
 ├── ProgramBukuTelepon.pas
 ├── ProgramDataKota.pas
@@ -271,6 +274,8 @@ REPOTUGASRIZKY/
 ├── SimulasiAntrianNasabah.pas
 ├── SistemGajiBulanan.pas
 ├── SistemInformasiAkademik.pas
+├── OnlineShop_ArrayRecord.pas
+├── OnlineShop_LinkedList.pas
 ├── .gitignore
 ├── LICENSE.txt
 └── README.md
@@ -297,7 +302,7 @@ Pilih salah satu file tugas yang ingin dijalankan, kemudian ikuti langkah-langka
    
 3. **Kompilasi kode sumber menggunakan FPC:**
    ```bash
-   Fpc namafile.pas
+   fpc namafile.pas
    ```
 4. **Jalankan file executable hasil kompilasi:**
    ```bash
