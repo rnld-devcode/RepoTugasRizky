@@ -1,6 +1,6 @@
 ![Header Banner](https://img.shields.io/badge/M._Rizky_Rinaldy-Repository_Tugas_Pascal-39FF14?style=for-the-badge&labelColor=000000)
 
-![Pascal](https://img.shields.io/badge/Pascal-FPC-blue)
+<!-- ![Pascal](https://img.shields.io/badge/Pascal-FPC-blue) -->
 ![Pascal](https://img.shields.io/badge/Language-Pascal-blue)
 ![MySQL](https://img.shields.io/badge/Database-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/OS-Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white)
